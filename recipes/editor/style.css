@@ -1,0 +1,176 @@
+/* NAVIGATION BAR */
+
+.navbar {
+  background-color: #357070; /* #387878; */
+  margin: 0 auto;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
+.navbar .container {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#myNavBar .navbar-nav a {
+  color: #fff;
+  opacity: .8;
+}
+
+#myNavBar a:hover {
+  background-color: #569494;
+  opacity: 1;
+}
+
+.navbar-brand img {
+  margin-top: -10px;
+}
+
+.navbar-header a img {
+  width: 150px;
+  height: auto;
+}
+
+.navbar .navbar-nav {
+  display: inline-block; /* This causes the collapsed menu error */
+  float: none;
+  vertical-align: top;
+}
+
+.navbar-collapse {
+  text-align: center;
+}
+
+.navbar-header .navbar-toggle .icon-bar {
+  background-color: #c9c9c9;
+}
+
+.navbar-header .navbar-toggle {
+  border-color: #c9c9c9;
+}
+
+.navbar-right li {
+  display: inline-block;
+  opacity: .5;
+  transition: .3s;
+}
+
+.navbar-right li:hover {
+  opacity: 1;
+  transition: .3s;
+}
+
+.navbar-right img {
+  height: 30px;
+  width: 30px;
+}
+
+.navbar-right {
+  margin:0;
+  padding:0;
+}
+
+/* FOOTER */
+
+.footer-container {
+  background-color: #3b6c6c;
+}
+
+.footer {
+  text-align: center;
+  padding-top: 7em;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.footer a {
+  color: #98cfcf;
+  opacity: .5;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  opacity: 1;
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: #fff;
+}
+
+.copyright {
+  margin-top: 5em;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.footer-icon img {
+  display: block;
+  width: 100px;
+  height: auto;
+  margin: auto;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.footer-icon img:hover {
+}
+
+.subscription-foot {
+  color: #fff;
+/*  background: url('images/heartbowl.jpg'); */
+  background-color: #a1d6c9;
+  padding: 5em;
+}
+
+.subscription-foot h2 {
+  color: #fff;
+}
+
+/* RECIPES */
+
+.recipes-splash {
+  background-image: url("/images/recipes.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 700px;
+}
+
+.recipes-splash h1 {
+  font-size: 5em;
+  color: white;
+  /*line-height: 700px;*/
+  padding-top: 270px;
+  text-align: center;
+  margin: 0;
+}
+
+.recipes-splash h2 {
+  font-size: 1.5em;
+  color: #fff;
+  padding-top: 20px;
+  text-align: center;
+  margin: 0;
+}
+
+#btn-signup {
+  height: 50px;
+  width: 300px;
+  border: 1px #357070 solid; /* Old Color #519900 */
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
+  background-color: #357070; /* Old Color #519900 */
+  box-sizing: border-box;
+  margin-top: 40px;
+  transition: .3s;
+  padding: 0;
+}
+
+#btn-signup:hover {
+  border-color: #57a7a7;
+  background-color: #57a7a7;
+  transition: .3s;
+}

@@ -1,0 +1,403 @@
+/* GLOBALS */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+img {
+  width: 100%
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+/* NAVIGATION BAR */
+
+.navbar {
+  background-color: #357070; /* #387878; */
+  margin: 0 auto;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
+.navbar .container {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#myNavBar .navbar-nav a {
+  color: #fff;
+  opacity: .8;
+}
+
+#myNavBar a:hover {
+  background-color: #569494;
+  opacity: 1;
+}
+
+.navbar-brand img {
+  margin-top: -10px;
+}
+
+.navbar-header a img {
+  width: 150px;
+  height: auto;
+}
+
+.navbar .navbar-nav {
+  display: inline-block; /* This causes the collapsed menu error */
+  float: none;
+  vertical-align: top;
+}
+
+.navbar-collapse {
+  text-align: center;
+}
+
+.navbar-header .navbar-toggle .icon-bar {
+  background-color: #c9c9c9;
+}
+
+.navbar-header .navbar-toggle {
+  border-color: #c9c9c9;
+}
+
+.navbar-right li {
+  display: inline-block;
+  opacity: .5;
+  transition: .3s;
+}
+
+.navbar-right li:hover {
+  opacity: 1;
+  transition: .3s;
+}
+
+.navbar-right img {
+  height: 30px;
+  width: 30px;
+}
+
+.navbar-right {
+  margin:0;
+  padding:0;
+}
+
+/* HOME PAGE */
+
+.jumbotron {
+  background: url("images/bench.jpg") center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 700px;
+  color: white;
+}
+
+.jumbotron-inner {
+  margin-top: 7em;
+}
+
+.jumbotron-inner img {
+  width: 400px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+@media only screen and (max-width: 500px){
+  .jumbotron-inner img {
+    width: 250px;
+  }
+}
+
+#btn-signup {
+  height: 50px;
+  width: 300px;
+  border: 1px #357070 solid; /* Old Color #519900 */
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
+  background-color: #357070; /* Old Color #519900 */
+  box-sizing: border-box;
+  margin-top: 40px;
+  transition: .3s;
+  padding: 0;
+}
+
+#btn-signup:hover {
+  border-color: #57a7a7;
+  background-color: #57a7a7;
+  transition: .3s;
+}
+
+.home-text {
+  font-size: 1em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.home-text blockquote {
+  font-size: 1.9em;
+}
+
+/* START HERE */
+
+.starthere-splash {
+  background-image: url("images/peek.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 700px;
+}
+
+.starthere-splash h1 {
+  font-size: 5em;
+  color: white;
+  line-height: 700px;
+  text-align: center;
+  margin: 0;
+}
+
+.starthere-text {
+  padding-top: 3em;
+  font-size: 1em;
+  margin: 0 0 3em 0;
+}
+
+.starthere-text blockquote {
+  font-size: 1.9em;
+}
+
+.starthere-vid {
+  margin: 5em auto;
+}
+
+/* BLOG */
+
+.blog-splash {
+  background-image: url("images/rock.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 700px;
+}
+
+.blog-splash h1 {
+  font-size: 5em;
+  color: white;
+  line-height: 700px;
+  text-align: center;
+  margin: 0;
+}
+
+/* RECIPES */
+
+.recipes-splash {
+  background-image: url("images/recipes.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 700px;
+}
+
+.recipes-splash h1 {
+  font-size: 5em;
+  color: white;
+  line-height: 700px;
+  text-align: center;
+  margin: 0;
+}
+
+/* VIDEOS */
+
+.videos-splash {
+  background-image: url("images/rock.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 700px;
+}
+
+.videos-splash h1 {
+  font-size: 5em;
+  color: white;
+  line-height: 700px;
+  text-align: center;
+  margin: 0;
+}
+
+.videos-text {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+
+/* CONTACT */
+
+.contact-splash {
+  background-image: url("images/bench.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 700px;
+}
+
+.contact-splash h1 {
+  font-size: 5em;
+  color: white;
+  line-height: 700px;
+  text-align: center;
+  margin: 0;
+}
+
+.contact-text {
+  font-size: 1em;
+  padding: 3em;
+  margin: 3em 0;
+}
+
+/* SIGN UP - MAILING LIST */
+
+.signup-splash {
+  background-image: url("images/path.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 700px;
+}
+
+.signup-splash h1 {
+  font-size: 5em;
+  color: white;
+  line-height: 700px;
+  text-align: center;
+  margin: 0;
+}
+
+.signup-form {
+  margin: 5em 0;
+  opacity: 1;
+}
+
+.signup-form div {
+  height: 30px;
+  width: 100%;
+  margin-top: 30px;
+  }
+
+.signup-form input {
+  height: 50px;
+  width: 300px;
+  border-radius: 5px;
+  border: 3px #357070 solid; /* Original Colour #2b6800 */
+  padding-left: 10px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.signup-form button {
+  height: 50px;
+  width: 300px;
+  border: 1px #357070 solid; /* Original Colour #519900 */
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
+  background-color: #357070;
+  box-sizing: border-box;
+  margin-top: 40px;
+}
+
+/* SUBSCRIBED */
+
+.subscribed-splash {
+  background-image: url("images/kick.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 700px;
+}
+
+.subscribed-splash h1 {
+  font-size: 5em;
+  color: white;
+  line-height: 700px;
+  text-align: center;
+  margin: 0;
+}
+
+.subscribed-text {
+  padding: 3em;
+  margin: 3em 0;
+}
+
+/* FOOTER */
+
+.footer-container {
+  background-color: #3b6c6c;
+}
+
+.footer {
+  text-align: center;
+  padding-top: 7em;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.footer a {
+  color: #98cfcf;
+  opacity: .5;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  opacity: 1;
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: #fff;
+}
+
+.copyright {
+  margin-top: 5em;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.footer-icon img {
+  display: block;
+  width: 100px;
+  height: auto;
+  margin: auto;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.footer-icon img:hover {
+}
+
+.subscription-foot {
+  color: #fff;
+/*  background: url('images/heartbowl.jpg'); */
+  background-color: #a1d6c9;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.subscription-foot h2 {
+  padding-left: 1em;
+  padding-right: 1em;
+}
